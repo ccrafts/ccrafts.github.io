@@ -1,0 +1,297 @@
+/*@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);*/
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+/*@import url(http://fonts.googleapis.com/earlyaccess/cwtexyen.css);*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+body {
+	font-family: 'cwTeXFangSong',"Times New Roman",Georgia, Serif;
+	background-attachment: fixed;
+	background:#fff;
+	color:#534847;
+	background:radial-gradient(top,rgba(255,255,255,0),rgba(255,255,255,.6),#fff),url(http://ccrafts.comxa.com/img/bg.jpg) center bottom repeat;
+	background:-moz-radial-gradient(top,rgba(255,255,255,0),rgba(255,255,255,.6),#fff),url(http://ccrafts.comxa.com/img/bg.jpg) center bottom repeat;
+	background:-webkit-radial-gradient(top,rgba(255,255,255,0),rgba(255,255,255,.6),#fff),url(http://ccrafts.comxa.com/img/bg.jpg) center bottom repeat;
+}
+html, body {height:100%;overflow: hidden;}
+
+/*Rotate func*/
+@-ms-keyframes clkwis {
+    100% {
+        -ms-transform: rotate(360deg);
+        -ms-transform-origin: center center;
+    }
+}
+@-moz-keyframes clkwis {
+    100% {
+        -moz-transform: rotate(360deg);
+        -moz-transform-origin: center center;
+    }
+}
+@-webkit-keyframes clkwis {
+    100% {
+        -webkit-transform: rotate(360deg);
+        -webkit-transform-origin: center center;
+    }
+}
+@keyframes clkwis {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform:rotate(360deg);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+    }
+}
+@-ms-keyframes cntclkwis {
+    100% {
+        -ms-transform: rotate(-360deg);
+        -ms-transform-origin: center center;
+    }
+}
+@-moz-keyframes cntclkwis {
+    100% {
+        -moz-transform: rotate(-360deg);
+        -moz-transform-origin: center center;
+    }
+}
+@-webkit-keyframes cntclkwis {
+    100% {
+        -webkit-transform: rotate(-360deg);
+        -webkit-transform-origin: center center;
+    }
+}
+@keyframes cntclkwis {
+    100% {
+        -webkit-transform: rotate(-360deg);
+        transform:rotate(-360deg);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+    }
+}
+.flower1{
+	-webkit-animation: clkwis 536s infinite linear;
+	-moz-animation: clkwis 53s infinite linear;
+	-ms-animation: clkwis 53s infinite linear;
+	animation: clkwis 53s infinite linear;
+	display: block;
+	position:absolute;
+	bottom:0;
+	left:12%;
+	margin-top: -20px;
+	pointer-events: none;
+
+}
+.flower2{
+	-webkit-animation: cntclkwis 40s infinite linear;
+	-moz-animation: cntclkwis 40s infinite linear;
+	-ms-animation: cntclkwis 40s infinite linear;
+	animation: cntclkwis 40s infinite linear;
+	display: block;
+	position:absolute;
+	bottom:32%;
+	right:10%;
+	pointer-events: none;
+
+}
+/*Rotate func end*/
+::selection {
+	display:none;
+}
+::-moz-selection {
+	display:none;
+}
+p::selection , span::selection{
+	background: #c6A49A;
+	color: #fff;
+}
+p::-moz-selection ,  span::-moz-selection{
+	background: #c6A49A;
+	color: #fff;
+}
+
+.center {
+	width:1022px;
+	margin:0 auto;
+}
+.logo {
+	width:300px;
+	height:100px;
+	background: url(http://ccrafts.comxa.com/img/logo.png) no-repeat bottom;
+	margin: 0 auto 60px;
+	padding-top: 3%;
+}
+.menu {
+	width:120px;
+	margin: 0 auto;
+}
+.menu li{
+	letter-spacing: 15px;
+	text-align: center;
+	line-height: 24px;
+	margin:12px 0;
+}
+.menu li a{
+	text-decoration: none;
+	color:#534847;
+	transition: color 1s;
+	-webkit-transition: color 1s;
+}
+.menu li a:hover{
+	color:#a24b49;
+}
+footer {
+	background: url(http://ccrafts.comxa.com/img/line.png) no-repeat;
+	background-size:100% 13%;
+	width:100%;
+	margin-top: 7%;
+	padding-top: 3%;
+}
+footer p {
+    text-align: center;
+    color:#534847;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+
+/**/
+main {
+	height:376px;
+	width:800px;
+	margin:0 auto;
+	position: relative;
+}
+main header {
+	width:100%;
+	height:60px;
+	padding-top: 2%;
+}
+main header .mainLogo{
+	width:180px;
+	height:60px;
+	background: url(http://ccrafts.comxa.com/img/logo.png) no-repeat;
+	background-size: cover;
+	display:block;
+	float:right;
+	cursor:pointer;
+	-webkit-transition : -webkit-filter 1s linear;
+	transition:filter 1s linear;
+}
+main header .mainLogo:hover{
+	-webkit-filter: brightness(2) saturate(.3);
+	filter: brightness(2) saturate(.3);
+}
+main header ul {
+	float:left;
+}
+main header ul li{
+	float: left;
+    line-height: 30px;
+    margin: 0 20px;
+    letter-spacing: 8px;
+    padding-top: 30px;
+    cursor: pointer;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+main header ul li:hover{
+	color:#a24b49;
+}
+main header ul li.active {
+	cursor:default;
+	color:#c6A49A;
+	pointer-events: none;
+}
+main>section {
+	height:290px;
+	width:100%;
+	padding-top: 26px;
+}
+main>section>div {
+	width:100%;
+	height:130px;
+	border-top-left-radius: 6px;
+	overflow: hidden;
+	opacity:.5;
+	-webkit-transition: opacity 2s;
+	transition: opacity 2s;
+}
+main>section>div  {
+	background: url(http://ccrafts.comxa.com/img/slider.jpg) no-repeat;
+}
+main>section:hover>div {
+	opacity:1;
+}
+main>section article {
+	padding-top: 22px;
+	line-height:26px;
+	letter-spacing: 2px;
+}
+main>section article a , main>section#list a{
+	text-decoration: none;
+	-webkit-transition: color 1s;
+	transition: color 1s;
+	margin:0 4px;
+	letter-spacing: 2px;
+	color:#a24b49;
+}
+main>section article a:hover{
+	color:#c6A49A;
+}
+main>section#list ol {
+	width:660px;
+	margin:30px auto 0;
+	height:260px;
+}
+main>section#list ol li {
+	width:200px;
+	height:110px;
+	margin:10px;
+	float:left;
+	background: url(http://ccrafts.comxa.com/img/propic.jpg) no-repeat;
+	opacity:.5;
+	-webkit-transition:opacity 1.2s;
+	transition:opacity 1.2s;
+}
+main>section#list ol li#list_cour {
+	background-position: top left;
+}
+main>section#list ol li#list_mach {
+	background-position: top center;
+}
+main>section#list ol li#list_deco {
+	background-position: bottom left;
+}
+main>section#list ol li#list_line {
+	background-position: top right;
+}
+main>section#list ol li#list_colo {
+	background-position: bottom center;
+}
+main>section#list ol li#list_dyin {
+	background-position: bottom right;
+}
+
+main>section#list ol li:hover {
+	opacity:1;
+}
+main>section#list ol li h1{
+	display:block;
+	background-color: rgba(255,255,255,.8);
+	line-height: 110px;
+	cursor:pointer;
+	text-align: center;
+	opacity:0;
+	-webkit-transition:opacity 1.2s;
+	transition:opacity 1.2s;
+	letter-spacing: 4px;
+}
+main>section#list ol li:hover h1{
+	opacity:1;
+}
+main>section#list span {
+	    margin:-125px 0 0 523px;
+	    display: block;
+	    letter-spacing: 2px;
+	    width: 210px;
+	    line-height: 26px;
+}
