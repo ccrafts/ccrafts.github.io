@@ -156,11 +156,6 @@ footer p {
 	transform:scale(0.7);
 	margin-top:4px;
 }
-.count::before {
-	content:'人氣指數';
-	margin-top:4px;
-	display:block;
-}
 
 /**/
 main {
