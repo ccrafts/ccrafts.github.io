@@ -153,8 +153,7 @@ footer p {
     letter-spacing: 2px;
 }
 .count {
-	transform:scale(0.7);
-	margin-top:4px;
+	transform:scale(0.7) translateY(6px);
 }
 
 /**/
