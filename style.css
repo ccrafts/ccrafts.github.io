@@ -9,9 +9,9 @@ body {
 	background-attachment: fixed;
 	background:#fff;
 	color:#534847;
-	background:radial-gradient(top,rgba(255,255,255,0),rgba(255,255,255,.6),#fff),url(http://ccrafts.comxa.com/img/bg.jpg) center bottom repeat;
-	background:-moz-radial-gradient(top,rgba(255,255,255,0),rgba(255,255,255,.6),#fff),url(http://ccrafts.comxa.com/img/bg.jpg) center bottom repeat;
-	background:-webkit-radial-gradient(top,rgba(255,255,255,0),rgba(255,255,255,.6),#fff),url(http://ccrafts.comxa.com/img/bg.jpg) center bottom repeat;
+	background:radial-gradient(top,rgba(255,255,255,0),rgba(255,255,255,.6),#fff),url(http://burningcheese.com/bg.jpg) center bottom repeat;
+	background:-moz-radial-gradient(top,rgba(255,255,255,0),rgba(255,255,255,.6),#fff),url(http://burningcheese.com/bg.jpg) center bottom repeat;
+	background:-webkit-radial-gradient(top,rgba(255,255,255,0),rgba(255,255,255,.6),#fff),url(http://burningcheese.com/bg.jpg) center bottom repeat;
 }
 html, body {height:100%;overflow: hidden;}
 
@@ -116,7 +116,7 @@ p::-moz-selection ,  span::-moz-selection{
 .logo {
 	width:300px;
 	height:100px;
-	background: url(http://ccrafts.comxa.com/img/logo.png) no-repeat bottom;
+	background: url(http://burningcheese.com/logo.png) no-repeat bottom;
 	margin: 0 auto 60px;
 	padding-top: 3%;
 }
@@ -140,7 +140,7 @@ p::-moz-selection ,  span::-moz-selection{
 	color:#a24b49;
 }
 footer {
-	background: url(http://ccrafts.comxa.com/img/line.png) no-repeat;
+	background: url(http://burningcheese.com/line.png) no-repeat;
 	background-size:100% 13%;
 	width:100%;
 	margin-top: 7%;
@@ -171,7 +171,7 @@ main header {
 main header .mainLogo{
 	width:180px;
 	height:60px;
-	background: url(http://ccrafts.comxa.com/img/logo.png) no-repeat;
+	background: url(http://burningcheese.com/logo.png) no-repeat;
 	background-size: cover;
 	display:block;
 	float:right;
@@ -219,7 +219,7 @@ main>section>div {
 	transition: opacity 2s;
 }
 main>section>div  {
-	background: url(http://ccrafts.comxa.com/img/slider.jpg) no-repeat;
+	background: url(http://burningcheese.com/slider.jpg) no-repeat;
 }
 main>section:hover>div {
 	opacity:1;
@@ -250,7 +250,7 @@ main>section#list ol li {
 	height:110px;
 	margin:10px;
 	float:left;
-	background: url(http://ccrafts.comxa.com/img/propic.jpg) no-repeat;
+	background: url(http://burningcheese.com/propic.jpg) no-repeat;
 	opacity:.5;
 	-webkit-transition:opacity 1.2s;
 	transition:opacity 1.2s;
